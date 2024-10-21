@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "Name of your script: " NAME
+echo -e "#!/bin/bash\n" > $NAME
+chmod u+x $NAME
+echo "Congratulation! $NAME created."

@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - display al alphabet
+ * main - manipulating a ASCII charaters !
  * Return: O always
 */
 
@@ -10,12 +10,12 @@ int main(void)
 {
 	char x;
 
-	for (x = '0' ; x <= '9' ; x++)
+	for (x = (48) ; x <= (57) ; x++)
 	{
 		putchar(x);
-		if (x != '9')
-			putchar(',');
-			putchar(' ');
+		if (x != (57))
+			putchar(44);
+			putchar(32);
 	}
 	{
 		putchar('\n');

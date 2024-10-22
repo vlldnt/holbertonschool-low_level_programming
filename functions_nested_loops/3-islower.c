@@ -3,6 +3,7 @@
 
 /**
  * _islower - check lower case characters
+ * @c: salut je sais pas ce que c'est
  * Return: 1 check is lower or capital
  */
 int _islower(int c)

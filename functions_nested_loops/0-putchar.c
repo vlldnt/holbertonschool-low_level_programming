@@ -1,9 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 #include "main.h"
 /**
-* main - putchar .c
+* main - _putchar with a new header
 * Return: O
 */
 int main(void)

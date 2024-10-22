@@ -1,4 +1,4 @@
 #!/bin/bash
 read -p "Name of your script: " NAME
-echo -e "#include <stdlib.h>\n#include <time.h>\n#include <stdio.h>\n/**\n* main - \n* Return: O\n*/\n\nint main(void)\n{\nreturn(0);}" > $NAME
+echo -e "#include \"main.h\"\n/**\n* main - \n* Return: O\n*/\n\nint main(void)\n{\nreturn (0);}" > $NAME
 echo "Congratulation! $NAME created."

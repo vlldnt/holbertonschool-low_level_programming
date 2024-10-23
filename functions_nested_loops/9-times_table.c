@@ -10,7 +10,7 @@ void times_table(void)
 	int li;
 	int col;
 	int num;
-	
+
 	for (col = 0; col <= 9; col++)
 	{
 		for (li = 0; li <= 9; li++)
@@ -21,9 +21,12 @@ void times_table(void)
 				_putchar((num / 10) + '0');
 				_putchar((num % 10) + '0');
 			}
-			if (num <= 9)
+			else
 			{
-				_putchar(32);
+				if (li != 0)
+				{
+					_putchar(32);
+				}
 				_putchar(num + '0');
 			}
 			if (li != 9)
@@ -33,5 +36,5 @@ void times_table(void)
 			}
 		}
 		_putchar('\n');
-	}	
+	}
 }

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* tiùes_table - print all time tables
+* times_table - print all time tables
 * @:
 * Return: will see
 */

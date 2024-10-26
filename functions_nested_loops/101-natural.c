@@ -7,15 +7,17 @@
 
 int main(void)
 {
-	int add3 = 0;
-	int add5 = 0;
-	int total;
-	
-	while (add3 < 1024)
-		add3 = add3 + 3;
-	while (add5 < 1024)
-		add5 = add5 + 4;
-	total = add3 + add5;
+	int n = 0;
+	int total = 0;
+
+	while (n < 1024)
+	{
+		if (n % 3 == 0 || n % 5 == 0)
+		       total += n;
+		
+	n++;
+	}		
+
 	printf("%d\n", total);
 return (0);
 }

@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main -
+* main - show the sum of the multiple of 3 and 5 between 0 and 1024
 * @:
-* Return:
+* Return: zirow
 */
 
 int main(void)
@@ -13,11 +13,9 @@ int main(void)
 	while (n < 1024)
 	{
 		if (n % 3 == 0 || n % 5 == 0)
-		       total += n;
-		
+			total += n;
 	n++;
-	}		
-
+	}
 	printf("%d\n", total);
 return (0);
 }

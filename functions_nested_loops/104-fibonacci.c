@@ -15,7 +15,9 @@ int main(void)
 		fib = first + second;
 		first = second;
 		second = fib;
-		printf("%ld, \n", fib);
+		if (n > 97)
+			printf("%ld\n", fib);
+		printf("%ld, ", fib);
 	}
 return (0);
 }

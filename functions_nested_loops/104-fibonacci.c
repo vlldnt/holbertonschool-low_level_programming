@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
-* main -
+* main - last exercice 98 fist fibonacci
 * @:
-* Return:
+* Return: zirow
 */
 
 int main(void)
 {
-	long int first = 0, second = 1, fib = 0; 
+	long int first = 0, second = 1, fib = 0;
 	int n;
 
 	for (n = 0; n < 98; n++)

@@ -24,7 +24,7 @@ int _atoi(char *s)
 		s++;
 	}
 
-	if (sign == 1)
+	if (sign == -1)
 		return (-sum);
 return (sum);
 }

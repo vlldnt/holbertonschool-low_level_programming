@@ -1,11 +1,25 @@
 #include "main.h"
 /**
-* main -
-* @:
+* puts2 - olala one on two numbers
+* @str: strings
 * Return:
 */
-
-int main(void)
+void puts2(char *str)
 {
-return (0);
+	int len = 0;
+	int i;
+
+	while (*str)
+	{
+		len++;
+		str++;
+	}
+
+	str -= len;
+
+	for (i = 0; i < len; i += 2)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }

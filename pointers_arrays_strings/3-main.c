@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-    char *s = "hello, world";
+    char *s = "helwlo, world";
     char *f = "olehw";
     unsigned int n;
 

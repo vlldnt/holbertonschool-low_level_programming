@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-    char *s = "hszszzsello";
+    char *s = "helloh";
     char *f;
 
     f = _strchr(s, 'l');

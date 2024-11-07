@@ -25,7 +25,6 @@ int main(int argc, char *argv[])
 		{
 			continue;
 		}
-
 		if (!b)
 		{
 			printf("Error\n");

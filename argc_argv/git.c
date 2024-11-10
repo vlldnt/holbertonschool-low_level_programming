@@ -1,25 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
-int main() {
-    char add[256];
-    char commit[256];
+int main(int argc, char *argv[]) {
     char command[512];
 
-    // Demande à l'utilisateur les fichiers à ajouter
-    printf("git add: ");
-    fgets(add, sizeof(add), stdin);
+    // Vérifie que deux arguments ont été fournis
+    if (argc != 3) {
+        fprintf(stderr, "Usage: %s <fichiers_a_ajouter> <message_de_commit>\n", argv[0]);
+        return 1;
+    }
 
-    // Enlève le caractère de nouvelle ligne '\n' à la fin de la saisie
-    add[strcspn(add, "\n")] = 0;
-
-    // Demande à l'utilisateur le message de commit
-    printf("Your commit: ");
-    fgets(commit, sizeof(commit), stdin);
-
-    // Enlève le caractère de nouvelle ligne '\n' à la fin de la saisie
-    commit[strcspn(commit, "\n")] = 0;
+    // Récupère les arguments pour `git add` et `git commit`
+    const char *add = argv[1];
+    const char *commit = argv[2];
 
     // Construit et exécute la commande "git add"
     snprintf(command, sizeof(command), "git add %s", add);

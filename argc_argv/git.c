@@ -6,15 +6,15 @@ int main(int argc, char *argv[])
 {
 	char command[512];
 	int i;
-	const char *add = argv[1];
+	const char *add = ".";
 	char commit[256]= "";
 
-	if (argc < 3)
+	if (argc < 2)
 	{
-		printf("argc[1] is for the file added and argv[2] and more are for the commit\n");
+		printf("error commit\n");
 		return (1);
 	}
-	for (i = 2; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		strcat(commit, argv[i]);
 		if (i < argc - 1)

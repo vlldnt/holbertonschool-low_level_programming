@@ -10,18 +10,23 @@ char *_strdup(char *str)
 {
 	int i = 0;
 	int len = 0;
-	char *temp = str;
 	char *dest;
 
-	while (*temp)
+	if (str == NULL)
+		return (NULL);
+
+	while (str[len] != '\0')
 	{
-		temp++;
 		len++;
 	}
-	dest = malloc(sizeof(char) * len);
+
+	dest = malloc(sizeof(char) * len + 1);
+
+	if (dest == 0)
+		return (NULL);
+
 	for (; i < len; i++)
 		dest[i] = str[i];
-	if (len == 0 || str == 0 || dest == NULL)
-		return ('\0');
+
 return (dest);
 }

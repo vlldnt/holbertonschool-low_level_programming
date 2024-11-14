@@ -27,8 +27,25 @@ char *_strcpy(char *dest, char *src)
 	}
 	dest[i] = '\0';
 return (dest);
-
 }
+
+/**
+* _strlen - length of a string
+* @s: strings to count
+* Return: num to end the program
+*/
+int _strlen(char *s)
+{
+	int num = 0;
+
+	while (*s)
+	{
+		num++;
+		s++;
+	}
+return (num);
+}
+
 /**
  * new_dog - create a new dog
  * @name: name
@@ -51,8 +68,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	new->name = malloc(strlen(name) + 1);
-	new->owner = malloc(strlen(owner) + 1);
+	new->name = malloc(_strlen(name) + 1);
+	new->owner = malloc(_strlen(owner) + 1);
 
 	if (new->name == 0 || new->owner == 0)
 	{

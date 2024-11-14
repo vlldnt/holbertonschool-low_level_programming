@@ -1,0 +1,13 @@
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * free_dog - run forest ruuun !
+ * @x: the dog !
+ */
+void free_dog(dog_t *x)
+{
+	free(x->name);
+	free(x->age);
+	free(x->ownwer);
+}

@@ -6,6 +6,6 @@
 
 - **[2-str_concat.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/malloc_free/2-str_concat.c)** Function that concatenates two strings
 
-- **[3-alloc_grid](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/malloc_free/3-alloc_grid.c)** Function that returns a pointer to a 2 dimentional array of integers
+- **[3-alloc_grid.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/malloc_free/3-alloc_grid.c)** Function that returns a pointer to a 2 dimentional array of integers
 
--**[4-free_grid.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/malloc_free/4-free_grid.c)** Function that frees the previously created alloc\_grid`
+- **[4-free_grid.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/malloc_free/4-free_grid.c)** Function that frees the previously created alloc\_grid`

@@ -2,18 +2,19 @@
 - **[0-reset_to_98.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/0-reset_to_98.c)** Function that takes a pointer to an int as parameter and updates the value it points to to 98.
 - **[0-strcat.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/0-strcat.c)** Function that concatenates two strings
 - **[1-memcpy.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/1-memcpy.c)** Function that copies a memory area
-- **[1-strncat.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/1-strncat.c** Function that concatenates two strings
+- **[1-strncat.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/1-strncat.c)** Function that concatenates two strings
 - **[1-swap.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/1-swap.c)** Function that swap the value of two integer
 - **[100-atoi.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/100-atoi.c)** Function that converts a string to an integer
 - **[2-strchr.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/2-strchr.c)** Function that locates a character in a string
 - **[2-strlen.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/2-strlen.c)** Function that returns the length of a string
-- **[2-strncpy.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/2-strncpy.c)** Function that copies a string- **[3-puts.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/3-puts.c)** Function that prints a string
+- **[2-strncpy.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/2-strncpy.c)** Function that copies a string
+- **[3-puts.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/3-puts.c)** Function that prints a string
 - **[3-strcmp.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/3-strcmp.c)** Function that compare twi strings
 - **[3-strspn.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/3-strspn.c)** Function that gets the length of a prefix substring
 - **[4-print_rev.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/4-print_rev.c)** Function that print a string in reverse
 - **[4-rev_array.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/4-rev_array.c)** Function that reverse the content of an array of integer
 - **[4-strpbrk.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/4-strpbrk.c)** Function that searches a string ofr any of a set of bytes
--**[5-rev_string.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/5-rev_string.c)** Function that reverses a string
+- **[5-rev_string.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/5-rev_string.c)** Function that reverses a string
 - **[5-string_toupper.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/5-string_toupper.c)** Function that changes lowercase letters to uppercase letters
 - **[5-strstr.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/5-strstr.c)** Function that locates a substring
 - **[6-cap_string.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/6-cap_string.c)** Function that capitalize all word of a string

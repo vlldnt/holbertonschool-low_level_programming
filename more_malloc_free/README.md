@@ -1,4 +1,4 @@
-##more\_malloc\_free
+## more\_malloc\_free
 
 - **[0-malloc_checked.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/more_malloc_free/0-malloc_checked.c)** Function that allocates memory using `malloc`
 

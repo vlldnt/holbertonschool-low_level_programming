@@ -5,13 +5,3 @@
 - **[2-calloc.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/more_malloc_free/2-calloc.c)** Function that allocates memory for an array, using `malloc`
 
 - **[3-array_range.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/more_malloc_free/3-array_range.c)** Function that creates an array of integers
-
-
-main.h :
-`void *malloc_checked(unsigned int b);`
-
-`char *string_nconcat(char *s1, char *s2, unsigned int n);`
-
-`void *_calloc(unsigned int nmemb, unsigned int size);`
-
-`int *array_range(int min, int max);`

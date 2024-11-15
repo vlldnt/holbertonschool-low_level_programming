@@ -12,4 +12,4 @@
 
 - **[5-sqrt_recursion.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/recursion/5-sqrt_recursion.c)** Function that returns the natural square root of a number
 
-- **[6-is_primer_number.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/recursion/6-is_prime_number.c)** Function that returns `1` if the input integer is a [prime number](https://intranet.hbtn.io/rltoken/hlTQsmjMQmfHqTYQct3-uA "prime number"), otherwise return `0`.
+- **[6-is_primer_number.c](https://github.com/vlldnt/holbertonschool-low_level_programming/blob/main/recursion/6-is_prime_number.c)** Function that returns `1` if the input integer is a prime number, otherwise return `0`.

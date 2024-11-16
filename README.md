@@ -7,6 +7,6 @@
 | $${\color{yellow}Week}$$ :five: | [More Pointers, Arrays and Strings](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/pointers_arrays_strings)  \|  [Recursion](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/recursion)  \|  [Argc Argv](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/argc_argv)                     |
 | 	$${\color{orange}Week}$$ :six: | [Malloc, Free](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/malloc_free)  \|  [More Malloc, Free](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/more_malloc_free)  \|  [Structures, Typedef](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/structures_typedef)                    |
 | $${\color{red}Week}$$ :seven: | [Function Pointers]  \|  [Variadic Functions]                    |
-| $${\color{grey}Week}$$ :height: | [C - Printf]                    |
+| $${\color{grey}Week}$$ :eight: | [Printf]                    |
 | $${\color{white}Week}$$ :nine: | [Singly Linked List]  \|  [Doubly Linked Lists]  \|  [Bit Manipulation]                   |
-| $${\color{black}Week}$$ :one::zero: | [C - I\/O]  \|  [Binary Trees]                    |
+| $${\color{teal}Week}$$ :one::zero: | [I\/O]  \|  [Binary Trees]                    |

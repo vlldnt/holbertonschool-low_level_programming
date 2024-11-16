@@ -8,4 +8,4 @@
 | $${\color{grey}Week}$$ :eight: | [Printf](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:                    |
 | $${\color{white}Week}$$ :nine: | [Singly Linked List](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:  \|  [Doubly Linked Lists](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:  \|  [Bit Manipulation](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:  \|  [I\/O](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:                   |
 | $${\color{teal}Week}$$ :one::zero: | [Binary Trees](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:  \|  [Sorting Algorithms & Big O](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:                    |
-| $${\color{teal}Week}$$ :one::one: | [Simple Shell](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:                    |
+| $${\color{purple}Week}$$ :one::one: | [Simple Shell](https://github.com/vlldnt/holbertonschool-low_level_programming) :x:                    |

@@ -1,4 +1,0 @@
-#!/bin/bash
-read -p "Name of your C file: " NAME
-echo -e "#include \"main.h\"\n/**\n* main -\n* @:\n* Return:\n*/\n\nint main(void)\n{\nreturn (0);\n}" > $NAME
-echo "Congratulation! $NAME created."

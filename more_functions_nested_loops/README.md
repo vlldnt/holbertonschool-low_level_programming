@@ -12,7 +12,7 @@
 
 [5-more_numbers.c](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/functions_nested_loops/5-more_numbers.c) Print 10 times 14 numbers 0 to 14
 
-[6-print_line.c](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/functions_nested_loops/6-print_line.c) Draws lines with ```n```numbers of lines
+[6-print_line.c](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/functions_nested_loops/6-print_line.c) Draws lines with ```n```number of lines
 
 [7-print_diagonal.c](https://github.com/vlldnt/holbertonschool-low_level_programming/tree/main/functions_nested_loops/7-print_diagonal.c) Print diagonal lines on the terminal
 

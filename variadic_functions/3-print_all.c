@@ -45,7 +45,7 @@ void pr_string(va_list list)
 }
 
 /**
- * print_all
+ * print_all - fucntion that print any type of character
  * @format: list of format checked
  */
 void print_all(const char * const format, ...)

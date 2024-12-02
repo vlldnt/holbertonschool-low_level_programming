@@ -9,16 +9,13 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	size_t len = 0;
+	size_t n = 0;
 
-	while (h)
+	while (h != NULL)
 	{
-		if (h->str == NULL)
-			printf("[Ø] (nil)\n");
-		else
-			printf("%d\n", h->len);
-	h = h->next;
-	len++;
+		printf("%d\n", h->n);
+		h = h->next;
+		n++;
 	}
-return (len);
+return (n);
 }

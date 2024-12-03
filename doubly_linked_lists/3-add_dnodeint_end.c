@@ -3,12 +3,12 @@
 #include "lists.h"
 #include <string.h>
 /**
- * add_dnodeint - add new nodes at the begining
+ * add_dnodeint_end - add new nodes at the end
  * @head: Pointer to the head of the list
  * @n: number to insert in first
  * Return: copy of the adress
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
 	dlistint_t *temp;

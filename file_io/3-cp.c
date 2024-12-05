@@ -28,17 +28,19 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	text_copy = read(file_from, buff, BUFF_SIZE);
+	while ((text_copy = read(file_from, buff, BUFF_SIZE)) > 0)
+	{
+		text_written = write(file_to, buff, text_copy);
+		if (text_copy != text_written)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+			exit(99);
+		}
+	}
 	if (text_copy == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
-	}
-	text_written = write(file_to, buff, BUFF_SIZE);
-	if (text_written == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
-		exit(99);
 	}
 	if (close(file_from) == -1 || close(file_to) == -1)
 	{

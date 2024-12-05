@@ -1,4 +1,5 @@
 #include "main.h"
+#define BUFF_SIZE 1024
 /**
  * main - copy text from file to another file
  * @argc: number of arguments

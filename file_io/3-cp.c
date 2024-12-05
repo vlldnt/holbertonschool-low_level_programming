@@ -5,13 +5,12 @@
  * @argv: list of arguments
  * Return: exit 98 if it fails
  */
-
 int main(int argc, char *argv[])
 {
 	int file_from = open(argv[1], O_RDONLY);
-	int file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	char buff[BUFF_SIZE];
+	int file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	ssize_t text_copy, text_written;
+	char buff[BUFF_SIZE];
 
 	if (argc != 3)
 	{
@@ -31,7 +30,7 @@ int main(int argc, char *argv[])
 	while ((text_copy = read(file_from, buff, BUFF_SIZE)) > 0)
 	{
 		text_written = write(file_to, buff, text_copy);
-		if (text_copy != text_written)
+		if (text_written != text_copy)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);

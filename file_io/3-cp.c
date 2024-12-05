@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	int file_from = open(argv[1], O_RDONLY);
 	int file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	char buff[BUFF_SIZE];
-	int text_copy, text_written;
+	ssize_t text_copy, text_written;
 
 	if (argc != 3)
 	{

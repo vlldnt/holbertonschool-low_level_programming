@@ -8,7 +8,7 @@
 void _cp(char *f_from, char *f_to)
 {
 	int file_from = open(f_from, O_RDONLY);
-	int file_to = open(f_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
+	int file_to;
 	ssize_t text_copy, text_written;
 	char buff[BUFF_SIZE];
 
@@ -17,6 +17,7 @@ void _cp(char *f_from, char *f_to)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", f_from);
 		exit(98);
 	}
+	file_to = open(f_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (file_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", f_to);

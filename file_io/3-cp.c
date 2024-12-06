@@ -28,7 +28,7 @@ void _cp(char *f_from, char *f_to)
 		text_written = write(file_to, buff, text_copy);
 		if (text_written != text_copy)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", f_from);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", f_to);
 			exit(99);
 		}
 	}
